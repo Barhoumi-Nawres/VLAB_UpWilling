@@ -1,0 +1,6 @@
+#Description: Create Raspberry Pi SD card image
+#Creates a partitioned SD card image for use with
+# Raspberry Pi. Boot files are located in the first vfat partition.
+
+
+
