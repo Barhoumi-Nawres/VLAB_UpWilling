@@ -46,7 +46,7 @@ $ kas/kas-container shell kas-rpi/kas-image-rpi02w.yml
 5. Building the Image
 
 ```bash
-$ bitbake core-image-minimal
+$ bitbake custom-image
 ```
  **Output** 
  
