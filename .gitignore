@@ -1,0 +1,6 @@
+kas/
+meta-raspberrypi/
+openembedded-core/
+build/
+.kas_shell_history
+meta-openembedded/
