@@ -2,6 +2,11 @@
 
 Custom Embedded Linux image for RaspberryPi Zero 2w, built with the Yocto Project (Scarthgap release).
 
+### Hardware Requirements:
+- Raspberrypi02w board
+- SD card (16 GB)
+- USB Vers TTL SErial Cable- Debug USB to RS232 TTL UART
+
 ### Layer Dependencies
 
 This project depends on the following layers:
@@ -46,7 +51,7 @@ $ kas/kas-container shell kas-rpi/kas-image-rpi02w.yml
 5. Building the Image
 
 ```bash
-$ bitbake custom-image
+/work/build$  bitbake custom-image
 ```
  **Output** 
  
@@ -74,6 +79,15 @@ $ sudo apt-get install picocom
 
 ```bash
 $ picocom -b 115200 -r -l /dev/ttyUSB
+```
+
+Output: 
+```bash
+Vlab reference distribution 2026.06 rpi02w64 ttyS0
+
+rpi02w64 login: root
+root@rpi02w64:~# 
+
 ```
 
 
